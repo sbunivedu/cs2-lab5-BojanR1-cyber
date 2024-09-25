@@ -1,0 +1,61 @@
+[s859074@cisone cs2-lab5-BojanR1-cyber]$ java LinkedQueueTester.java 
+expect:abcd
+   got:abcd
+expect:a
+   got:a
+expect:empty string
+   got:
+expect:EmptyCollectionException to be thrown
+EmptyCollectionException is caught
+
+customers:100
+Number of cashiers: 1
+Average time: 5317
+
+customers:100
+Number of cashiers: 2
+Average time: 2325
+
+customers:100
+Number of cashiers: 3
+Average time: 1332
+
+customers:100
+Number of cashiers: 4
+Average time: 840
+
+customers:100
+Number of cashiers: 5
+Average time: 547
+
+customers:100
+Number of cashiers: 6
+Average time: 355
+
+customers:100
+Number of cashiers: 7
+Average time: 219
+
+customers:100
+Number of cashiers: 8
+Average time: 120
+
+customers:100
+Number of cashiers: 9
+Average time: 120
+
+customers:100
+Number of cashiers: 10
+Average time: 120
+   
+
+
+
+Analysis for Lab5(Computer Science II)
+ Bojan Radoman 
+
+Writing this Lab5, I came to the conclusion that on this, the LinkedQueueTester shows that
+the LinkedQueue that I had to implement a little bit is fine, because it passed all test cases in producing excpected outputs from the queue. Moreover, 
+it indeed entails that the queue can perfom enqueue and dequeue reguraly. On the other hand, we have TicketCounter simulation, the number of cashiers defines the average waiting time for all the customers:
+Because when we have more cashiers, then customers wont have to wait that long in the line(so that means that we have new customers after every 15 seconds). While the single cashiers created an average wait time of 5317 seconds, adding 10 cashiers reduced it to 12 seconds. Thank you
+
